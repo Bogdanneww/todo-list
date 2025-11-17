@@ -1,80 +1,73 @@
-# Todo-list 📝
+Todo-list
 
-A simple and intuitive web app to organize your daily tasks and stay on top of your schedule.
+A simple web application to manage your daily tasks efficiently.
 
-🚀 Quick Start
+Demo
 
-Clone the repository
-
-git clone https://github.com/AnnaLub/todo-list
-cd todo-list
-
-
-Create and activate a virtual environment
-
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Apply database migrations
-
-python manage.py migrate
-
-
-(Optional) Create a superuser for admin access
-
-python manage.py createsuperuser
-
-
-Start the development server
-
-python manage.py runserver
-
-
-Open http://127.0.0.1:8000
- in your browser.
-
-✨ Features
-
-✅ View all tasks sorted by status (not done → done) and creation date
-
-➕ Add new tasks with optional deadlines
-
-✏️ Update or delete existing tasks
-
-✔️ Mark tasks as Complete or Undo
-
-🏷️ Assign multiple tags to tasks for better organization
-
-🗂️ Create, edit, and delete tags
-
-📸 Screenshots
-
-Home Page / Task List
-
-
-Add / Update Task Form
+Home Page
 
 
 Tag List Page
 
 
-You can put screenshots in a screenshots/ folder in your repo.
+Add / Update Task Page
 
-🛠 Technologies Used
+
+Installation
+
+Make sure Python 3 is installed on your system.
+
+Clone the repository:
+git clone https://github.com/Bogdanneww/todo-list.git
+
+Create and activate a virtual environment:
+Windows: .venv\Scripts\activate
+macOS/Linux: source .venv/bin/activate
+
+Install dependencies:
+pip install -r requirements.txt
+
+Apply migrations:
+python manage.py migrate
+
+(Optional) Create a superuser:
+python manage.py createsuperuser
+
+Start the server:
+python manage.py runserver
+
+Open your browser and go to http://127.0.0.1:8000
+
+Features
+
+View your task list, ordered by status and creation date
+
+Add, update, or delete tasks
+
+Categorize tasks with tags
+
+Mark tasks as Complete or Undo
+
+Sidebar navigation for easy access to Home and Tag pages
+
+Project Structure
+
+tasks/models.py – Task and Tag models
+
+tasks/views.py – CRUD views and status toggle logic
+
+tasks/templates/ – HTML templates for all pages
+
+tasks/forms.py – Django forms for tasks
+
+Technologies Used
 
 Python 3
 
-Django Framework
+Django
 
-HTML5 & CSS3
+HTML / CSS
 
 Bootstrap 5
+
+Django Crispy Forms
