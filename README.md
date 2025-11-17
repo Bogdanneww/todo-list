@@ -1,4 +1,4 @@
-Todo-list 📝
+# Todo-list 📝
 
 A simple and intuitive web app to organize your daily tasks and stay on top of your schedule.
 
