@@ -1,16 +1,17 @@
-# Todo-list 📝
+# Todo-list
 
-A simple and intuitive web app to organize your daily tasks and stay on top of your schedule.
+A simple web application to manage your daily tasks.
 
-🚀 Quick Start
+## Installation
 
-Clone the repository
+Make sure you have Python 3 installed on your system.
 
-git clone https://github.com/AnnaLub/todo-list
-cd todo-list
+1. Clone the repository:
+```bash
+git clone https://github.com/Bogdanneww/todo-list.git
 
 
-Create and activate a virtual environment
+Create and activate a virtual environment:
 
 python -m venv .venv
 # Windows
@@ -19,62 +20,24 @@ python -m venv .venv
 source .venv/bin/activate
 
 
-Install dependencies
+Install project dependencies:
 
 pip install -r requirements.txt
 
 
-Apply database migrations
+Create the database and apply migrations:
 
 python manage.py migrate
 
 
-(Optional) Create a superuser for admin access
+(Optional) Create a superuser:
 
 python manage.py createsuperuser
 
 
-Start the development server
+Start the development server:
 
 python manage.py runserver
 
 
-Open http://127.0.0.1:8000
- in your browser.
-
-✨ Features
-
-✅ View all tasks sorted by status (not done → done) and creation date
-
-➕ Add new tasks with optional deadlines
-
-✏️ Update or delete existing tasks
-
-✔️ Mark tasks as Complete or Undo
-
-🏷️ Assign multiple tags to tasks for better organization
-
-🗂️ Create, edit, and delete tags
-
-📸 Screenshots
-
-Home Page / Task List
-
-
-Add / Update Task Form
-
-
-Tag List Page
-
-
-You can put screenshots in a screenshots/ folder in your repo.
-
-🛠 Technologies Used
-
-Python 3
-
-Django Framework
-
-HTML5 & CSS3
-
-Bootstrap 5
+Open your browser and go to http://127.0.0.1:8000
